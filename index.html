@@ -6,7 +6,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Kho Pharma">
-    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/883/883356.png">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.freepik.com/512/5523/5523306.png">
     
     <title>Tool Box</title>
     <style>
@@ -196,8 +196,8 @@
         </div>
 
         <div class="header-total">
-            <span>TỔNG Số Kiện</span>
-            <div><span class="total-number" id="global-total">0</span> <span style="font-size: 12px; opacity: 0.8;">kiện</span></div>
+            <span>Tổng Số Thùng</span>
+            <div><span class="total-number" id="global-total">0</span> <span style="font-size: 12px; opacity: 0.8;">thùng</span></div>
         </div>
     </header>
 
@@ -230,8 +230,49 @@
         { id: 'SP20', name: "Klevaflu", boxesPerCarton: 48, caps: { 'Pallet L': 55, 'Pallet N': 25, 'Pallet 1A': 55 } },
         { id: 'SP21', name: "Nazofix 0.05%", boxesPerCarton: 80, caps: { 'Pallet L': 60, 'Pallet N': 30, 'Pallet 1A': 60 } },
         { id: 'SP22', name: "Propain", boxesPerCarton: 140, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } },
-        { id: 'SP23', name: "Propain Syrup", boxesPerCarton: 64, caps: { 'Pallet L': 32, 'Pallet N': 15, 'Pallet 1A': 32 } },
-        { id: 'SP24', name: "Remeclar 250", boxesPerCarton: 500, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } }
+        { id: 'SP23', name: "Propain Syrup (Hộp 01 chai)", boxesPerCarton: 64, caps: { 'Pallet L': 32, 'Pallet N': 15, 'Pallet 1A': 32 } },
+        { id: 'SP24', name: "Remeclar 250", boxesPerCarton: 500, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } },
+        { id: 'SP25', name: "Remeclar 500", boxesPerCarton: 380, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } },
+        { id: 'SP26', name: "Sadapron 300", boxesPerCarton: 460, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } },
+        { id: 'SP27', name: "Calcium (Hộp 10 vỉ x 10 viên)", boxesPerCarton: 225, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } },
+        { id: 'SP28', name: "Clomedin 100 (Hộp 5 vỉ x 10 viên)", boxesPerCarton: 465, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } },
+        { id: 'SP29', name: "Clomedin 25 (Hộp 5 vỉ x 10 viên)", boxesPerCarton: 600, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } },
+        { id: 'SP30', name: "Cypdicar (Hộp 03 vỉ x10 viên )", boxesPerCarton: 880, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } },
+        { id: 'SP31', name: "Cyplosart 50 (Hộp 03 vỉ X 10 viên)", boxesPerCarton: 880, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } },
+        { id: 'SP32', name: "Diclowal (Hộp 2 vỉ x 5 viên đặt)", boxesPerCarton: 255, caps: { 'Pallet L': 30, 'Pallet N': 10, 'Pallet 1A': 25 } },
+        { id: 'SP33', name: "Elpesom 50 µg/dose (Hộp 1 chai)", boxesPerCarton: 288, caps: { 'Pallet L': 32, 'Pallet N': 15, 'Pallet 1A': 32 } },
+        { id: 'SP34', name: "Famopsin (Hộp 10 vỉ x 10 viên)", boxesPerCarton: 360, caps: { 'Pallet L': 25, 'Pallet N': 15, 'Pallet T1': 10, 'Pallet T2': 12, 'Pallet 1A': 20 } },
+        { id: 'SP35', name: "Gorsyta (Hộp/08 vỉ X 07 viên)", boxesPerCarton: 64, caps: { 'Pallet L': 50, 'Pallet N': 25, 'Pallet 1A': 40 } },
+        { id: 'SP36', name: "Klevator", boxesPerCarton: 448, caps: { 'Pallet L': 31, 'Pallet N': 10, 'Pallet 1A': 25 } },
+        { id: 'SP37', name: "Nazofix 0.05% (Hộp 1 chai x 18g)", boxesPerCarton: 80, caps: { 'Pallet L': 60, 'Pallet N': 30, 'Pallet 1A': 60 } },
+        { id: 'SP38', name: "Olimestra10 (Hộp 2 vỉ x15 viên)", boxesPerCarton: 128, caps: { 'Pallet L': 50, 'Pallet N': 25, 'Pallet 1A': 40 } },
+        { id: 'SP39', name: "Olimestra20 (Hộp/2 vỉ X 15 viên)", boxesPerCarton: 128, caps: { 'Pallet L': 50, 'Pallet N': 25, 'Pallet 1A': 40 } },
+        { id: 'SP40', name: "Olimestra20 (Hộp/2 vỉ X 14 viên)", boxesPerCarton: 128, caps: { 'Pallet L': 50, 'Pallet N': 25, 'Pallet 1A': 40 } },
+        { id: 'SP41', name: "Oprymea 0.26 (Hộp 03 vỉ x 10 viên)", boxesPerCarton: 120, caps: { 'Pallet L': 50, 'Pallet N': 25, 'Pallet 1A': 40 } },
+        { id: 'SP42', name: "Oprymea 0.52 (Hộp 03 vỉ x 10 viên)", boxesPerCarton: 120, caps: { 'Pallet L': 50, 'Pallet N': 25, 'Pallet 1A': 40 } },
+        { id: 'SP43', name: "Terminus (Hộp 1 chai x 30ml)", boxesPerCarton: 100, caps: { 'Pallet L': 40, 'Pallet N': 20, 'Pallet 1A': 40 } },
+        { id: 'SP44', name: "Torendo Q1 (Hộp/03 vỉ X 10 viên)", boxesPerCarton: 160, caps: { 'Pallet L': 50, 'Pallet N': 25, 'Pallet 1A': 40 } },
+        { id: 'SP45', name: "Torendo Q2 (Hộp 03 vỉ X 10 viên)", boxesPerCarton: 120, caps: { 'Pallet L': 50, 'Pallet N': 25, 'Pallet 1A': 40 } },
+        { id: 'SP46', name: "Yradan 10 (Hộp 03 vỉ x 10 viên)", boxesPerCarton: 120, caps: { 'Pallet L': 50, 'Pallet N': 25, 'Pallet 1A': 40 } },
+        { id: 'SP47', name: "Yradan 5 (Hộp 03 vỉ X 10 viên)", boxesPerCarton: 160, caps: { 'Pallet L': 50, 'Pallet N': 25, 'Pallet 1A': 40 } },
+        { id: 'SP48', name: "Nalordia 25mg (Hộp 10 vỉ x 10 viên)", boxesPerCarton: 90, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP49', name: "Nalordia 100mg (Hộp 10 vỉ x 10 viên)", boxesPerCarton: 90, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP50', name: "Moxydar", boxesPerCarton: 140, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP51', name: "Nalordia 200mg (Hộp 10 vỉ x 10 viên)", boxesPerCarton: 60, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP52', name: "Solacy", boxesPerCarton: , caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP53', name: "Diclowal", boxesPerCarton: 225, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP54', name: "Elpesom", boxesPerCarton: 288, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP55', name: "Cyplosart Plus", boxesPerCarton: 390, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP56', name: "Macorel", boxesPerCarton: 88, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP57', name: "Brusonex (Hộp 01 lọ 18g)", boxesPerCarton: 60, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP58', name: "Clamodia 625 (Hộp/02 vỉ X 10 viên)", boxesPerCarton: 160, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP59', name: "Clozarem 100 (Clozapine 100mg)", boxesPerCarton: 465, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP60', name: "Codalgin 8", boxesPerCarton: 200, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP61', name: "Darstin (Hộp 01 tuýp 80g)", boxesPerCarton: 72, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP61', name: "Enyglid (Hộp 02 vỉ X 15 viên)", boxesPerCarton: 160, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP62', name: "Ezoleta (Hộp 3 vỉ x 10 viên)", boxesPerCarton: 120, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP63', name: "Lefgen (Hộp 03 vỉ x 10 viên)", boxesPerCarton: 156, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
+        { id: 'SP64', name: "Solnatec (Hộp 03 vỉ X 10 viên)", boxesPerCarton: 290, caps: { 'Pallet L': 0, 'Pallet N': 0, 'Pallet T1': 0, 'Pallet T2': 0, 'Pallet 1A': 0 } },
     ];
 
     let rowCounter = 0;
@@ -354,7 +395,7 @@
         shippingUnits = totalBoxes > 0 ? (cartons + (leftover > 0 ? 1 : 0)) : 0;
         card.dataset.shippingUnits = shippingUnits;
         card.querySelector('.result-text').innerHTML = totalBoxes > 0 
-            ? `Tổng: <b>${totalBoxes} hộp</b> <br> Đóng gói: <b>${cartons} th + ${leftover} lẻ</b> → <b>${shippingUnits} kiện</b>`
+            ? `Tổng: <b>${totalBoxes} hộp</b> <br> Đóng gói: <b>${cartons} th + ${leftover} lẻ</b> → <b>${shippingUnits} Thùng</b>`
             : "Nhập số lượng để tính";
         updateGlobalTotal();
     }
